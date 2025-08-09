@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<body>
+  <input id="msg" placeholder="写一行字">
+  <input id="id" placeholder="id">
+  <button onclick="send()">发送</button>
+
+  <script>
+    async function send() {
+      const text = document.getElementById('msg').value;
+      const id = document.getElementById('id').value;
+      data = {"text":text,"id":id};
+      re = await fetch('/text', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(data)
+      });
+      returnd = await re.json();
+      atext = returnd.text;
+      alert(atext);
+    }
+  </script>
+</body>
+</html>

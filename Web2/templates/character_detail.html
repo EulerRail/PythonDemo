@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>角色详情 | 星穹铁道</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(120deg, #232526 0%, #414345 100%);
+            min-height: 100vh;
+            font-family: 'ZCOOL XiaoWei', 'Microsoft YaHei', sans-serif;
+        }
+        .charater-detail-card {
+            max-width: 500px;
+            margin: 40px auto;
+            box-shadow: 0 4px 24px rgba(0,195,255,0.18);
+            border-radius: 22px;
+            background: linear-gradient(120deg, #232526 0%, #414345 100%);
+            border: 1px solid #00c3ff;
+        }
+        .charater-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #00c3ff;
+            box-shadow: 0 2px 12px #4b3ca7;
+            background: #fff;
+            margin: 24px auto 12px auto;
+            display: block;
+        }
+        .charater-name {
+            font-size: 2.2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #00c3ff;
+            letter-spacing: 2px;
+            text-shadow: 0 0 8px #00c3ff;
+        }
+        .charater-info {
+            font-size: 1.15rem;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 18px;
+            background: linear-gradient(90deg, #4b3ca7 0%, #00c3ff 100%);
+            border-radius: 10px;
+            padding: 8px 0;
+            box-shadow: 0 0 8px #00c3ff;
+        }
+        .back-link {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .btn-outline-primary {
+            border-color: #00c3ff;
+            color: #00c3ff;
+        }
+        .btn-outline-primary:hover {
+            background: #00c3ff;
+            color: #fff;
+            border-color: #00c3ff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="charater-detail-card bg-white p-4">
+        <img src="/image/{{character.id}}.png" alt="{{character.name}}" class="charater-img">
+        <div class="charater-name">{{character.name}}</div>
+        <div class="charater-info">星级：{{character.star}}<br>命途：{{character.fate}}<br>属性：{{character.element}}</div>
+        <div class="back-link">
+            <a href="/" class="btn btn-outline-primary">返回角色列表</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,580 @@
+{
+    "character": {
+        "basic_info": [
+            {
+                "id": 0,
+                "name": "海瑟音",
+                "star": 5,
+                "fate": "虚无",
+                "element": "物理"
+            },
+            {
+                "id": 1,
+                "name": "丹恒•腾荒",
+                "star": 5,
+                "fate": "存护",
+                "element": "物理"
+            },
+            {
+                "id": 2,
+                "name": "长夜月",
+                "star": 5,
+                "fate": "记忆",
+                "element": "冰\""
+            },
+            {
+                "id": 3,
+                "name": "刻律德菈",
+                "star": 5,
+                "fate": "同谐",
+                "element": "风\""
+            },
+            {
+                "id": 4,
+                "name": "Archer",
+                "star": 5,
+                "fate": "巡猎",
+                "element": "量子"
+            },
+            {
+                "id": 5,
+                "name": "Saber",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "风\""
+            },
+            {
+                "id": 6,
+                "name": "流萤",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "火\""
+            },
+            {
+                "id": 7,
+                "name": "镜流",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "冰\""
+            },
+            {
+                "id": 8,
+                "name": "刃",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "风\""
+            },
+            {
+                "id": 9,
+                "name": "银狼",
+                "star": 5,
+                "fate": "虚无",
+                "element": "量子"
+            },
+            {
+                "id": 10,
+                "name": "卡芙卡",
+                "star": 5,
+                "fate": "虚无",
+                "element": "雷\""
+            },
+            {
+                "id": 11,
+                "name": "白厄",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "物理"
+            },
+            {
+                "id": 12,
+                "name": "星期日",
+                "star": 5,
+                "fate": "同谐",
+                "element": "虚数"
+            },
+            {
+                "id": 13,
+                "name": "缇宝",
+                "star": 5,
+                "fate": "同谐",
+                "element": "量子"
+            },
+            {
+                "id": 14,
+                "name": "赛飞儿",
+                "star": 5,
+                "fate": "虚无",
+                "element": "量子"
+            },
+            {
+                "id": 15,
+                "name": "花火",
+                "star": 5,
+                "fate": "同谐",
+                "element": "量子"
+            },
+            {
+                "id": 16,
+                "name": "阿格莱雅",
+                "star": 5,
+                "fate": "记忆",
+                "element": "雷\""
+            },
+            {
+                "id": 17,
+                "name": "风堇",
+                "star": 5,
+                "fate": "记忆",
+                "element": "风\""
+            },
+            {
+                "id": 18,
+                "name": "大黑塔",
+                "star": 5,
+                "fate": "智识",
+                "element": "冰\""
+            },
+            {
+                "id": 19,
+                "name": "那刻夏",
+                "star": 5,
+                "fate": "智识",
+                "element": "风\""
+            },
+            {
+                "id": 20,
+                "name": "真理医生",
+                "star": 5,
+                "fate": "巡猎",
+                "element": "虚数"
+            },
+            {
+                "id": 21,
+                "name": "遐蝶",
+                "star": 5,
+                "fate": "记忆",
+                "element": "量子"
+            },
+            {
+                "id": 22,
+                "name": "忘归人",
+                "star": 5,
+                "fate": "虚无",
+                "element": "火\""
+            },
+            {
+                "id": 23,
+                "name": "椒丘",
+                "star": 5,
+                "fate": "虚无",
+                "element": "火\""
+            },
+            {
+                "id": 24,
+                "name": "黄泉",
+                "star": 5,
+                "fate": "虚无",
+                "element": "雷\""
+            },
+            {
+                "id": 25,
+                "name": "万敌",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "虚数"
+            },
+            {
+                "id": 26,
+                "name": "藿藿",
+                "star": 5,
+                "fate": "丰饶",
+                "element": "风\""
+            },
+            {
+                "id": 27,
+                "name": "云璃",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "物理"
+            },
+            {
+                "id": 28,
+                "name": "波提欧",
+                "star": 5,
+                "fate": "巡猎",
+                "element": "物理"
+            },
+            {
+                "id": 29,
+                "name": "知更鸟",
+                "star": 5,
+                "fate": "同谐",
+                "element": "物理"
+            },
+            {
+                "id": 30,
+                "name": "开拓者•记忆",
+                "star": 5,
+                "fate": "记忆",
+                "element": "冰\""
+            },
+            {
+                "id": 31,
+                "name": "开拓者•记忆",
+                "star": 5,
+                "fate": "记忆",
+                "element": "冰\""
+            },
+            {
+                "id": 32,
+                "name": "灵砂",
+                "star": 5,
+                "fate": "丰饶",
+                "element": "火\""
+            },
+            {
+                "id": 33,
+                "name": "飞霄",
+                "star": 5,
+                "fate": "巡猎",
+                "element": "风\""
+            },
+            {
+                "id": 34,
+                "name": "翡翠",
+                "star": 5,
+                "fate": "智识",
+                "element": "量子"
+            },
+            {
+                "id": 35,
+                "name": "景元",
+                "star": 5,
+                "fate": "智识",
+                "element": "雷\""
+            },
+            {
+                "id": 36,
+                "name": "砂金",
+                "star": 5,
+                "fate": "存护",
+                "element": "虚数"
+            },
+            {
+                "id": 37,
+                "name": "乱破",
+                "star": 5,
+                "fate": "智识",
+                "element": "虚数"
+            },
+            {
+                "id": 38,
+                "name": "黑天鹅",
+                "star": 5,
+                "fate": "虚无",
+                "element": "风\""
+            },
+            {
+                "id": 39,
+                "name": "丹恒•饮月",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "虚数"
+            },
+            {
+                "id": 40,
+                "name": "阮•梅",
+                "star": 5,
+                "fate": "同谐",
+                "element": "冰\""
+            },
+            {
+                "id": 41,
+                "name": "银枝",
+                "star": 5,
+                "fate": "智识",
+                "element": "物理"
+            },
+            {
+                "id": 42,
+                "name": "白露",
+                "star": 5,
+                "fate": "丰饶",
+                "element": "雷\""
+            },
+            {
+                "id": 43,
+                "name": "彦卿",
+                "star": 5,
+                "fate": "巡猎",
+                "element": "冰\""
+            },
+            {
+                "id": 44,
+                "name": "符玄",
+                "star": 5,
+                "fate": "存护",
+                "element": "量子"
+            },
+            {
+                "id": 45,
+                "name": "罗刹",
+                "star": 5,
+                "fate": "丰饶",
+                "element": "虚数"
+            },
+            {
+                "id": 46,
+                "name": "托帕&账账",
+                "star": 5,
+                "fate": "巡猎",
+                "element": "火\""
+            },
+            {
+                "id": 47,
+                "name": "克拉拉",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "物理"
+            },
+            {
+                "id": 48,
+                "name": "杰帕德",
+                "star": 5,
+                "fate": "存护",
+                "element": "冰\""
+            },
+            {
+                "id": 49,
+                "name": "希儿",
+                "star": 5,
+                "fate": "巡猎",
+                "element": "量子"
+            },
+            {
+                "id": 50,
+                "name": "布洛妮娅",
+                "star": 5,
+                "fate": "同谐",
+                "element": "风\""
+            },
+            {
+                "id": 51,
+                "name": "瓦尔特",
+                "star": 5,
+                "fate": "虚无",
+                "element": "虚数"
+            },
+            {
+                "id": 52,
+                "name": "姬子",
+                "star": 5,
+                "fate": "智识",
+                "element": "火\""
+            },
+            {
+                "id": 53,
+                "name": "开拓者•同谐",
+                "star": 5,
+                "fate": "同谐",
+                "element": "虚数"
+            },
+            {
+                "id": 54,
+                "name": "开拓者•同谐",
+                "star": 5,
+                "fate": "同谐",
+                "element": "虚数"
+            },
+            {
+                "id": 55,
+                "name": "开拓者•存护",
+                "star": 5,
+                "fate": "存护",
+                "element": "火\""
+            },
+            {
+                "id": 56,
+                "name": "开拓者•存护",
+                "star": 5,
+                "fate": "存护",
+                "element": "火\""
+            },
+            {
+                "id": 57,
+                "name": "开拓者•毁灭",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "物理"
+            },
+            {
+                "id": 58,
+                "name": "开拓者•毁灭",
+                "star": 5,
+                "fate": "毁灭",
+                "element": "物理"
+            },
+            {
+                "id": 59,
+                "name": "米沙",
+                "star": 4,
+                "fate": "毁灭",
+                "element": "冰\""
+            },
+            {
+                "id": 60,
+                "name": "加拉赫",
+                "star": 4,
+                "fate": "丰饶",
+                "element": "火\""
+            },
+            {
+                "id": 61,
+                "name": "仙舟三月七",
+                "star": 4,
+                "fate": "巡猎",
+                "element": "虚数"
+            },
+            {
+                "id": 62,
+                "name": "貊泽",
+                "star": 4,
+                "fate": "巡猎",
+                "element": "雷\""
+            },
+            {
+                "id": 63,
+                "name": "寒鸦",
+                "star": 4,
+                "fate": "同谐",
+                "element": "物理"
+            },
+            {
+                "id": 64,
+                "name": "雪衣",
+                "star": 4,
+                "fate": "毁灭",
+                "element": "量子"
+            },
+            {
+                "id": 65,
+                "name": "桂乃芬",
+                "star": 4,
+                "fate": "虚无",
+                "element": "火\""
+            },
+            {
+                "id": 66,
+                "name": "驭空",
+                "star": 4,
+                "fate": "同谐",
+                "element": "虚数"
+            },
+            {
+                "id": 67,
+                "name": "素裳",
+                "star": 4,
+                "fate": "巡猎",
+                "element": "物理"
+            },
+            {
+                "id": 68,
+                "name": "停云",
+                "star": 4,
+                "fate": "同谐",
+                "element": "雷\""
+            },
+            {
+                "id": 69,
+                "name": "青雀",
+                "star": 4,
+                "fate": "智识",
+                "element": "量子"
+            },
+            {
+                "id": 70,
+                "name": "卢卡",
+                "star": 4,
+                "fate": "虚无",
+                "element": "物理"
+            },
+            {
+                "id": 71,
+                "name": "玲可",
+                "star": 4,
+                "fate": "丰饶",
+                "element": "量子"
+            },
+            {
+                "id": 72,
+                "name": "虎克",
+                "star": 4,
+                "fate": "毁灭",
+                "element": "火\""
+            },
+            {
+                "id": 73,
+                "name": "桑博",
+                "star": 4,
+                "fate": "虚无",
+                "element": "风\""
+            },
+            {
+                "id": 74,
+                "name": "佩拉",
+                "star": 4,
+                "fate": "虚无",
+                "element": "冰\""
+            },
+            {
+                "id": 75,
+                "name": "娜塔莎",
+                "star": 4,
+                "fate": "丰饶",
+                "element": "物理"
+            },
+            {
+                "id": 76,
+                "name": "希露瓦",
+                "star": 4,
+                "fate": "智识",
+                "element": "雷\""
+            },
+            {
+                "id": 77,
+                "name": "黑塔",
+                "star": 4,
+                "fate": "智识",
+                "element": "冰\""
+            },
+            {
+                "id": 78,
+                "name": "艾丝妲",
+                "star": 4,
+                "fate": "同谐",
+                "element": "火\""
+            },
+            {
+                "id": 79,
+                "name": "阿兰",
+                "star": 4,
+                "fate": "毁灭",
+                "element": "雷\""
+            },
+            {
+                "id": 80,
+                "name": "丹恒",
+                "star": 4,
+                "fate": "巡猎",
+                "element": "风\""
+            },
+            {
+                "id": 81,
+                "name": "三月七",
+                "star": 4,
+                "fate": "存护",
+                "element": "冰\""
+            }
+        ]
+    }
+}
