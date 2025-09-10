@@ -7,11 +7,13 @@ snack = [[5, 4], [5, 5], [5, 6]]  # 蛇的每一节坐标
 apple = [[10, 5]]  # 苹果坐标
 forward = 1  # 初始方向，1为下
 second = 0.3  # 移动间隔（秒）
-
+W1=45
+H1=30
+largh=20
 # 初始化pygame窗口
 pygame.init()
-w = 1200  # 窗口宽度，60格*20像素
-h = 900   # 窗口高度，45格*20像素
+w = W1*largh  # 窗口宽度，60格*20像素
+h = H1*largh   # 窗口高度，45格*20像素
 screen = pygame.display.set_mode((w, h))
 
 # 游戏运行标志和时钟
@@ -49,9 +51,9 @@ def stop():
 def new_apple():
     global snack, apple
     x_min = max(0, snack[-1][0] - 10)
-    x_max = min(59, snack[-1][0] + 10)
+    x_max = min(W1-1, snack[-1][0] + 10)
     y_min = max(0, snack[-1][1] - 10)
-    y_max = min(44, snack[-1][1] + 10)
+    y_max = min(H1-1, snack[-1][1] + 10)
     new_apple = [random.randint(x_min, x_max), random.randint(y_min, y_max)]
     while (new_apple in snack) or (new_apple in apple):
         new_apple = [random.randint(x_min, x_max), random.randint(y_min, y_max)]
@@ -85,7 +87,7 @@ def move(snack, apple, forward):
             return snack, apple
 
     # 如果蛇头碰到边界，游戏结束
-    if last[0] < 0 or last[0] >= 60 or last[1] < 0 or last[1] >= 45:
+    if last[0] < 0 or last[0] >= W1 or last[1] < 0 or last[1] >= H1:
         stop()
         return snack, apple
 
